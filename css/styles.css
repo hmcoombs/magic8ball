@@ -1,0 +1,12 @@
+.ball8{
+    background-image: url();
+    height: 200px;
+    width: 200px;
+    background-size: auto;
+    background-position: center;
+    
+}
+
+.flex-container{
+    height: 100%;
+}
