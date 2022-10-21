@@ -1,12 +1,26 @@
-.ball8{
-    background-image: url();
-    height: 200px;
-    width: 200px;
-    background-size: auto;
-    background-position: center;
-    
+/* @import bootstrap */
+
+form label {
+    cursor: pointer;
 }
 
-.flex-container{
+.hero-image {
+    background-image: url(/img/game-magic-8-ball-no-text.webp);
     height: 100%;
+    width: 100%;
+    border: 10px solid green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: .9;
 }
+
+.container{
+    height: 700px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    
+} 
